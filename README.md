@@ -1,5 +1,21 @@
 # `orouter-wireless` (ōRouter wireless protocol)
+----------------------------------------------------------------------------------------
+I'm not entirely sure if everything I've put together is technically accurate, as my understanding is limited.
 
+However, I personally find this project file to be incredibly cool, and it excites me once again.
+
+Although I only understood about 5% of it and couldn't utilize many features, I used basic concepts to build it.
+
+In the exe folder, slicer.exe serves to split data, while print.exe reassembles the divided data, even combining chunks in different orders.
+
+Inside the bin folder, slicer.rs contains an example code for splitting, and print.rs holds a simple example for merging.
+
+Theoretically, systems like MessagePool could be used to split and merge larger data files, such as images or short videos.
+
+While writing the code, I sought help not from the somewhat silly ChatGPT 3.5, but from Naver Clova X.
+
+
+------------------------------------------------------------------------------------------
 Defines and implements protocol used on oRouter's physical radio layer (now using LoRa)
 
 Application level message can be theoretically unlimited, but LoRa can only transmit 255B in
@@ -72,3 +88,12 @@ fn main() {
     }
 }
 ```
+-------------------------------------------------------------------------
+
+Learning Rust can be particularly challenging for those who are not native English speakers.
+
+I am grateful for the resources provided by Mithradates' YouTube channel [https://www.youtube.com/@mithradates]
+
+and The Rust Programming Language official documentation [https://doc.rust-lang.org/book/title-page.html]
+
+, which have significantly helped in breaking down these barriers.
